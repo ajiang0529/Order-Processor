@@ -1,2 +1,3 @@
 # Order-Processor
-Java Project Using Inheritance and TreeMaps to Represent An Order Processor.
+This is a Java project which has the function of an order processor. It reads .txt files which contain a customer's ID, item, quantity, and the cost(double). After reading, it then processes the orders and generates a report which contains the items, individual prices, item quantities, and customer total for each customer specified in the .txt file. In addition, there is also a summary generated which lists the total items sold, item quantities, and grand total for all items.
+I used inheritance to create these classes. They all rely on the OrdersProcessor class to scan the .txt files. The ProcessOrders class then creates TreeMaps to store the specific client data and item data. In order to process the report, the ProcessOrders class runs through the two databases, using a filewriter to create a .txt file with the calculated data.
